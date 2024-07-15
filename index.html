@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color:powderblue;">
+<h1 id="title" > Exercises </h1>
+<p id="description"> Are you exercising enough on a regular basis? You can figure it out through this Survey form. Fill and submit, we will contact you. </p>
+<form id="survey-form"> 
+
+<div class="Introduction">
+  <label id="name-label">Name</label>
+  <input type="name" id="name" placeholder="Please type your  first and last name" required/>
+  <br>
+</div>
+
+<div class="Introduction">
+<label id="email-label"> Email </label>
+<input type="email" id="email" email="Enter your email address" placeholder="Please type your email" required/> 
+  <br>
+</div>
+
+<div class="Introduction">
+<label id="number-label">Age </label> <input type="number" id="number" number= "Age" min="18" max="35" placeholder="Age"required/> 
+  <br>
+</div>
+
+<select name="dropdown" id="dropdown">
+<Option value =" Please choose 1"> Please Choose 1 </option>
+<option value="I exercise 1X/week"> I exercise 1X/week </option>
+<option value="I exercise 3X/week">I exercise 3X/week </option>
+<option value=" I exercise 0X/week"> I exercise 0X/week </options>
+</select> <br>
+
+<div>
+ <p>Which exercise you enjoy the most? (choose one)</p>
+ <input type="radio" name="exercise" id="hi" value="swimming">
+ <label for= "hi">Exercise swimming </label>
+</div>
+
+<div>
+ <input type="radio" name="exercise" id="hilo" value="Gym">
+ <label for="hilo">Exercise Gym </label>
+</div>
+
+  <div>
+<input type="radio" name="exercise" id="hey" value="Walking">
+<label for="hey">Exercise Walking </label>
+  </div>
+
+
+<h5> Do you think you exercise enough? (choose one) </h5>
+
+<div>
+ <input type="checkbox" name="I exercise" id="ex1" value="Yes">
+ <label for="ex1"> I exercise enough </label>
+</div>
+
+<div>
+ <input type="checkbox" name="I exercise" id="ex2" value="I don't know">
+ <label for="ex2"> I don't know if I exercise enough </label>
+</div>
+
+<div>
+ <input type="checkbox" name= "I exercise" id="ex3" value="No, could you help?">
+ <label for="ex3"> I dont exercise enough, could you help? </label> 
+</div>
+
+
+<textarea>
+  Any feedback or comments about the form?
+</textarea>
+
+<div>
+<input type="submit" id="submit"/>
+</div>
+
+</form>
+</body>
+</html>
