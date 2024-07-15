@@ -1,0 +1,35 @@
+h1 {
+    margin-bottom: 2em;
+    outline-style: double;
+    font-size: 35;
+  }
+  p{
+    margin-bottom: 2em;
+    font-size: 16;
+    font-weight: bold;
+    outline-style: double;
+  }
+  
+  div{
+    margin-bottom: 0.5em;
+  }
+  
+  #dropdown{
+    margin-bottom: 2em;
+  }
+  
+  
+  textarea{
+    background-color: pink;
+    color: purple;
+    width: 300px;
+    height:100px;
+    margin-bottom: 2em;
+  }
+  
+  h5 {
+    font-size: 16;
+    outline-style: double;
+    margin-bottom: 2em;
+  }
+  
